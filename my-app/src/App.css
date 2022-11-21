@@ -1,0 +1,23 @@
+.Parentbox {}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(227, 195, 152);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+}
+
+.Content {
+  padding-left: 40px;
+}
