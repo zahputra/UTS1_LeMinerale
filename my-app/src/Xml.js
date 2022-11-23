@@ -43,8 +43,9 @@ class Xml extends React.Component {
     render() {
 
         return (
-            <table className="">
-
+            <div className="sembarang">  
+            <h1>Halaman Xml</h1>
+            <table>
                 <tr>
                     <td>
                         {(
@@ -76,7 +77,7 @@ class Xml extends React.Component {
                 </tr>
 
             </table>
-
+</div>
         )
     };
 }

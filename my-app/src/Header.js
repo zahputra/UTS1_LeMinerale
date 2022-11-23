@@ -9,8 +9,9 @@ function Header() {
     };
 
     return (
+        
         <nav>
-            <h3>Kopi Mahal PABW</h3>
+            <h3>Kelompok Le Minerale PABW</h3>
             <ul className='nav-links'>
                 <Link style={navStyle} to='/xml'>
                     <li>XML</li>

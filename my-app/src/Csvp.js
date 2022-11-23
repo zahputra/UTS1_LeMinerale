@@ -3,6 +3,7 @@ import { useState } from "react";
 import Papa from "papaparse";
 
 function Csvp() {
+    
     const [parsedData, setParsedData] = useState([]);
 
     const [tableRows, setTableRows] = useState([]);
@@ -33,6 +34,7 @@ function Csvp() {
 
     return (
         <div>
+            <h1>Halaman Csv</h1>
             <input
                 type="file"
                 name="file"

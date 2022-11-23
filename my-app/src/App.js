@@ -15,7 +15,7 @@ function App() {
 
         <Header />
         <div className='Content'>
-          <h1>Tugas UTS </h1>
+          <h1>Selamat Datang Di Tugas UTS</h1>
           <Switch>
 
             <Route path="/xml" component={Xml} />
